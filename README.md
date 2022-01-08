@@ -14,4 +14,4 @@ Benchmarks
 
 **Sse42** is the accelerated computation using Sse42 intrinsics. Note that only CRC-32C is supported ( polynomial = 0x82F63B78 )
 
-**Fast** is the fastest implementation I could find for .NET Core. The repository is here [force-net/Crc32.NET](https://github.com/force-net/Crc32.NET), also some code for table computation derives from this source.
+**Force** is the fastest implementation I could find for .NET Core. The repository is here [force-net/Crc32.NET](https://github.com/force-net/Crc32.NET), also some code for table computation derives from there.
